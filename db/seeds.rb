@@ -21,5 +21,6 @@ User.create!(
       name: "Pizza",
       description: "Lorem ipsum bbq chicken with feta cheese and sausage",
       price: 11.99,
-      catering_item: true
+      catering: true
     )
+end
