@@ -14,4 +14,7 @@
   <h5 class="link-container">
     <%= link_to "Customer Reviews", "", class: "link #{@page == 'reviews' ? 'active' : ''}" %>
   </h5>
+  <h5 class="link-container">
+    <%= link_to "View Cart", cart_path, class: "link #{@page == 'cart' ? 'active' : ''}" %>
+  </h5>
 </div>
