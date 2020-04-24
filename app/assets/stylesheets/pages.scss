@@ -27,7 +27,7 @@
   width: 100vw;
   height: 100vh;
   background-image: url(https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80);
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .menu-page {
@@ -72,6 +72,7 @@
 }
 
 .link-container {
+  font-size: 1em;
   padding-left: 1em;
   padding-top: 0.25em;
   .link {
@@ -85,6 +86,10 @@
   }
 }
 
+footer .fab {
+  font-size: 30px;
+  color: #f9cd44;
+}
 
 
 
